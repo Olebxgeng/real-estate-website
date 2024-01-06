@@ -1,0 +1,18 @@
+.header_wrapper{
+    background: var(--black);
+    color: white;
+}
+
+.header_container{
+    justify-content: space-between;
+    padding: 1rem 0;
+    color: var(--secondary);
+}
+
+.header_menu{
+    gap: 2rem;
+}
+
+.header_menu>*:hover{
+    cursor: pointer;
+}
