@@ -1,0 +1,8 @@
+.companies_container{
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.companies_container img{
+    width: 9rem;
+}
