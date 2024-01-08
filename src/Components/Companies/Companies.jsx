@@ -2,7 +2,7 @@ import './Companies.css'
 import Prologis from "../../Images/prologis.png"
 import Realty from "../../Images/realty.png"
 import Tower from "../../Images/tower.png"
-import Equinix from "../../Images//equinix.png"
+import Equinix from "../../Images/equinix.png"
 
 const Companies = () => {
   return (
