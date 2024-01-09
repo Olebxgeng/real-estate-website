@@ -17,7 +17,7 @@ import data from '../../utils/accordion';
 
 const Value = () => {
     
-    
+    const [className, setClassName] = useState(null)
 
   return (
     
@@ -44,19 +44,17 @@ const Value = () => {
                         {
                             data.map((item, index) => {
 
-                                const [className, setClassName] = useState(null)
+                                
 
                                 return (
                                     <AccordionItem className={`accordian_item ${className}`} key={index} uuid={index}>
                                         <AccordionItemHeading>
                                             <AccordionItemButton className='accordian_button flexCenter'>
-
                                                 <AccordionItemState>
                                                     {({expanded})=> expanded 
                                                     ? setClassName("expanded") 
                                                     : setClassName("collapsed")}
                                                 </AccordionItemState>
-
                                                 <div className="flexCenter icon">{item.icon}</div>
                                                 <span className="primaryText">{item.heading}</span>
                                                 <div className="flexCenter icon"><MdOutlineArrowDropDown size={20}/></div>

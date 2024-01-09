@@ -1,0 +1,53 @@
+.contact_container{
+    justify-content: space-between;
+}
+
+.contact_container div{
+    flex: 1;
+}
+
+.contact_right{
+    width: 100%;
+}
+
+.contact_left{
+    gap: .5rem;
+}
+
+.contact_methods{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.contact_methods .row{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.method{
+    width: 16rem;
+    padding: 1rem;
+    border: 0.8px solid rgba(128,128,128,0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+
+.method .button{
+    width: 100%;
+    background: var(--lightBlue);
+    color: var(--blue);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.method :nth-child(1){
+    width: 100%;
+    gap: 1.6rem;
+}
+
+.method .details .primaryText{
+    font-size: 1.1rem;
+    font-weight: 600;
+}

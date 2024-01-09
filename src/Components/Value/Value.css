@@ -46,7 +46,7 @@
     font-size: 1.1rem;
 }
 
-.accordian.expanded{
+.accordian_item.expanded{
  box-shadow: var(--shadow);
  border-radius: 6px;
 }

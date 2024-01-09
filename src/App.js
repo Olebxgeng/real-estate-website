@@ -5,6 +5,7 @@ import "./App.css"
 import Companies from './Components/Companies/Companies';
 import Residencies from './Components/Residencies/Residencies';
 import Value from './Components/Value/Value';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   
@@ -28,6 +29,7 @@ function App() {
         <Companies/>
         <Residencies/>
         <Value/>
+        <Contact/>
     </div>
   );
 }
