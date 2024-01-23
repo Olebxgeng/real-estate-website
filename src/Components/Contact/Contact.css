@@ -1,3 +1,7 @@
+.blockStart {
+    display: block;
+  }
+
 .contact_container{
     justify-content: space-between;
 }
@@ -26,11 +30,11 @@
 }
 
 .method{
-    width: 16rem;
+    width: 18rem;
     padding: 1rem;
     border: 0.8px solid rgba(128,128,128,0.143);
     border-radius: 5px;
-    gap: 1rem;
+    gap: 2rem;
     transition: all 300ms ease-in;
 }
 
@@ -50,4 +54,8 @@
 .method .details .primaryText{
     font-size: 1.1rem;
     font-weight: 600;
+}
+
+.details{
+    margin-bottom: 1rem;
 }

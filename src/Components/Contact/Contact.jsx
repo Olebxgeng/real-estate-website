@@ -17,11 +17,11 @@ const Contact = () => {
                 <span className='secondaryText'>We are always ready to help provide the best service. We belive a good place to live can make your life better</span>
             
                 <div className="flexColStart contact_methods">
-                    {/*   FIRST ROW  */}
-                    <div className="flexColStart row">
-                        <div className="flexCenter method">
+                    {/*   FIRST ROW flexColStart */}
+                    <div className=" row">
+                        <div className="blockStart method">
                             <div className="flexStart">
-                                <div className="flexCenter icon">
+                                <div className=" icon">
                                     <MdCall size={25}/>
                                 </div>
                                 <div className="flexColStart details">
